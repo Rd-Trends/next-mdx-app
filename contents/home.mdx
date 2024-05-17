@@ -1,0 +1,265 @@
+---
+slug: "/"
+---
+
+<Hero 
+    subHeading={<span>Professionelles Zeichnen für Messe-, Theater-<br/>und Veranstaltungstechnik</span>} 
+    image={'/images/content/hero__front.png'} 
+    button={{ 
+        text: 'Jetzt kostenlos testen',
+        href: '/',
+        color: "primary",
+        size: "lg"
+    }}
+/>
+
+<IntroSection
+    heading={"Für ein Minimum an Aufwand und ein Maximum an Wow"} 
+    subHeading={<span>Plane mit <span class="text-black">Auto</span><span class="italic text-brand">STAGE</span> mühelos deine Veranstaltung</span>} 
+    text={"AutoSTAGE ist eine leistungsstarke Software zur schnellen und einfachen Erstellung von professionellen CAD-Plänen, technischen Planungen und Visualisierungen für die Messe-, Theater- und Veranstaltungstechnik. Entdecke jetzt, wie du in kürzester Zeit komplette technische Planungen für den Aufbau, Betrieb und die Dokumentation von Veranstaltungstechnik erzeugen kannst."} 
+    button={{ 
+        text: 'Jetzt kostenlos testen',
+        href: '/',
+        color: "primary",
+        size: "lg"
+    }}
+/>
+
+<HeadlineProductsSection 
+    heading={<span>Die Varianten von <span class="text-deepblue">Auto</span><span class="italic text-brand">STAGE</span></span>} 
+    products={[
+    {
+        title: <span>Auto<span class="italic text-brand">STAGE</span> <span class="italic font-light">2023</span></span>,
+        subtitle: 'So praktisch – AutoCAD inklusive',
+        description: 'AutoSTAGE arbeitet mit dem weltweit am meisten verwendeten AutoCAD DWG-Format. Das Beste ist: Wir liefern das AutoCAD-Programm gleich mit. Ohne Extrakosten.',
+        cover: '/images/content/headline__autostage-2024.png',
+        button: {
+            text: 'Jetzt kostenlos testen',
+            color:  'primary',
+            href: '/',
+            size: "lg"
+        }
+    },
+    {
+        title: <span>Auto<span class="italic text-brand">STAGE</span> <span class="italic font-light">App</span></span>,
+        subtitle: 'Smarte Lösung',
+        description: 'Wer bereits eine Vollversion von AutoCAD besitzt, kann sämtliche Module von AutoSTAGE als App nutzen.',
+        cover: '/images/content/headline__autostage-app.png',
+        button: {
+            text: 'Jetzt kostenlos testen',
+            color:  'primary',
+            href: '/',
+            size: "lg"
+        }
+    }
+]}    
+/>
+
+<ExperienceSection
+    heading={<span><span class="text-deepblue">Auto</span><span class="italic text-brand pr-2">STAGE</span>  erleben</span>}
+    subheading="Intuitiv und kreativ"
+    text="Unsere Software bietet eine einzigartige technische 2D- und 3D-Simulation der Realität in den Bereichen Licht, Audio, Video, Bühne, Traversen und Rigging. Die intuitive Bedienung mit vorgefertigten Bibliotheken und spezialisierten Werkzeugen garantiert einen smarten Workflow. Das bedeutet: deutlich mehr Zeit für Kreativität."
+    image="/images/content/experience__autostage.png"
+/>
+
+<AdvantagesBlocksSection
+    advantages={[
+        {
+            heading: 'Einfach besser planen',
+            text: 'Vom Einsteiger bis zum Experten: professionell und einfach planen, mit oder ohne CAD-Erfahrung'
+        },
+        {
+            heading: 'Produktiver arbeiten',
+            text: 'Auch komplexe Pläne intuitiv in 2D oder 3D umsetzen'
+        },
+        {
+            heading: 'Informationen teilen',
+            text: 'Per DWG-Format austauschen, mit wenigen Klicks komplette Materiallisten anfertigen und nach Excel exportieren'
+        },
+        {
+            heading: 'Statisch berechnen',
+            text: 'Belastbare Analysen anfertigen, inklusive Berechnungsprotokolle für Lastannahme und Tragswerksnachweise'
+        }
+    ]}
+/>
+
+<PricingSection
+          heading='Die perfekte Wahl für jeden'
+          pricingPackages={[{
+            name: <span>Auto<span class="italic text-brand">STAGE</span> <span class="italic font-light">2023</span></span>,
+            id: 'autostage-2023',
+            pricingPlans: [
+                {
+                    name: '2023 Modular',
+                    color: 'green',
+                    description: 'Für alle, die etwas ganz Bestimmtes planen wollen. Triff deine persönliche Auswahl und bezahle nur, was du wirklich brauchst.',
+                    price: 'ab 40 €/Monat*',
+                    linkBtn: {
+                        text: 'Angebot erhalten',
+                        href: '/',
+                        color: 'green'
+                    }
+                },
+                {
+                    name: '2023 All-in',
+                    color: 'orange',
+                    description: 'Unbegrenzter Zugriff auf alle Module – für professionelle Ergebnisse und mehr Produktivität.',
+                    price: 'ab 170 €/Monat*',
+                    linkBtn: {
+                        text: 'Angebot erhalten',
+                        href: '/',
+                        color: 'orange'
+                    }
+                },
+                {
+                    name: '2023 All-in + VStatics',
+                    color: 'navy',
+                    description: 'Genieße alle Vorteile von All-in und nutze zusätzlich mit Vstatic ein professionelles Tool für sichere statische Berechungen.',
+                    price: 'ab 425 €/Monat*',
+                    linkBtn: {
+                        text: 'Angebot erhalten',
+                        href: '/',
+                        color: 'navy'
+                    }
+                }
+              ]
+          },
+            {
+                name: <span>Auto<span class="italic text-brand">STAGE</span> <span class="italic font-light">App</span></span>,
+                id: 'autostage-app',
+                pricingPlans: [
+                    {
+                        name: 'App Modular',
+                        color: 'green',
+                        description: 'Für alle, die etwas ganz Bestimmtes planen wollen. Triff deine persönliche Auswahl und bezahle nur, was du wirklich brauchst.',
+                        price: 'ab 25 €/Monat*',
+                        linkBtn: {
+                            text: 'Angebot erhalten',
+                            href: '/',
+                            color: 'green'
+                        }
+                    },
+                    {
+                        name: 'App All-in',
+                        color: 'orange',
+                        description: 'Unbegrenzter Zugriff auf alle Module – für professionelle Ergebnisse und mehr Produktivität.',
+                        price: 'ab 130 €/Monat*',
+                        linkBtn: {
+                            text: 'Angebot erhalten',
+                            href: '/',
+                            color: 'orange'
+                        }
+                    },
+                    {
+                        name: 'App All-in + VStatics',
+                        color: 'navy',
+                        description: 'Genieße alle Vorteile von All-in und nutze zusätzlich mit Vstatic ein professionelles Tool für sichere statische Berechungen.',
+                        price: 'ab 350 €/Monat*',
+                        linkBtn: {
+                            text: 'Angebot erhalten',
+                            href: '/',
+                            color: 'navy'
+                        }
+                    }
+                ]
+            }]}
+            after='*Als Service-Abo mit festgelegter Laufzeit. In Deutschland, Österreich und Schweiz auch als Classic-Kauf möglich.'
+/>
+
+<CallBlock
+    heading='Vom Support profitieren.'
+    text='Unser Unternehmen ist branchenweit bekannt für erstklassigen Support'
+    linkBtn={{
+        text: 'Kontakt aufnehmen',
+        href: '/',
+        color: 'secondary'
+    }}
+    image='/images/content/call__autostage.png'
+/>
+
+<ChecklistSectionWithDescription 
+    heading='Mit wenig Aufwand viel erreichen'
+    description='Die Lösungen von AutoStage orientieren sich an der täglichen Praxis von Veranstaltungs-experten. Der Fokus liegt dabei auf der Unterstützung der Workflows. Plane mit ein wenigen Klicks den perfekten Messestand, die Veranstaltung oder Theaterbühne.'
+    checklist={[
+        {
+            item: 'Optimale Planungsergebnisse in kürzester Zeit'
+        },
+        {
+            item: 'Kaufe nur das, was du wirklich brauchst'
+        },
+        {
+            item: 'Benutzerfreundliche Anwendung per Drag & Drop'
+        },
+        {
+            item: 'Material- und Auswertungs-listen per Mausklick'
+        },
+        {
+            item: 'AutoCAD inklusive'
+        },
+        {
+            item: 'Komplexe statische Berechnungen per Mausklick'
+        },
+        {
+            item: 'Persönlicher Support'
+        },
+        {
+            item: 'Kompatibel dank DWG-Format'
+        }
+    ]}
+/>
+
+<MarqueeSection
+    heading='Im Einsatz bei'
+    marqueeItems={[
+        {
+            name: 'Munich fabric start',
+            image: '/images/content/companies/using__munich-fabric-start.png',
+            alt: 'Munich fabric start'
+        },
+        {
+            name: 'Gahrens + Battermann',
+            image: '/images/content/companies/using__gahrens-battermann.png',
+            alt: 'Gahrens + Battermann'
+        },
+        {
+            name: 'Pave',
+            image: '/images/content/companies/using__pave.png',
+            alt: 'Pave'
+        },
+        {
+            name: 'iLux',
+            image: '/images/content/companies/using__ilux.png',
+            alt: 'iLux'
+        }
+    ]}
+/>
+
+<SimpleSlidesSection
+    slides={[
+        {
+            text: <span>„<span class="text-deepblue">Auto</span><span class="italic text-brand pr-2">STAGE</span> ist für unsere Branche maßgeschneidert“</span>,
+            author: 'Timo Greinert',
+            authorFrom: '4SOUND GmbH'
+        },
+        {
+            text: 'Ich bin begeistert von der einfachen Bedienung und der Vielfalt der Möglichkeiten.',
+            author: 'Jörg Schröder',
+            authorFrom: 'Schröder Veranstaltungstechnik'
+         },
+        {
+            text: <span>„<span class="text-deepblue">Auto</span><span class="italic text-brand pr-2">STAGE</span> deckt alle Bereiche ab, die wir für unsere Planungen benötigen.“</span>,
+            author: 'Kai Schröder',
+            authorFrom: 'DTHG e.V.'
+        },
+        {
+            text: '„VStatics ist ein tolles Tool, um statische Berechnungen schnell und einfach durchzuführen.“',
+            author: 'Lars Kellermann',
+            authorFrom: 'Kellermann Veranstaltungstechnik'
+        }
+    ]}
+/>
+
+<div className=" container py-4 bg-primary text-white items-center flex-col text-center">
+<h2 className="text-4xl font-bold">A custom section</h2>
+<p className="text-lg">With this approach, you can even write HTML and it will be displayed properly</p>
+</div>
